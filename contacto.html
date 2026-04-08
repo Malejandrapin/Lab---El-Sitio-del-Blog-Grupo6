@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <section class="main__contac">
+        <h1>Contacto</h1>
+        <p>
+            Si tienes alguna duda o sugerencia, puedes escribirnos... nuestrocorreo@elrincondelacuchita.com
+        </p>
+    </section>
+    <section class="section__contacto">
+        <form action="/action_page.php">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="firstname" placeholder="Dinos tu nombre..">
+
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="lastname" placeholder="Dinos tu apellido..">
+
+            <label for="asunto">Asunto</label>
+            <textarea id="asunto" name="asunto" placeholder="Escribenos.."></textarea>
+
+            <div class="input__submit">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
