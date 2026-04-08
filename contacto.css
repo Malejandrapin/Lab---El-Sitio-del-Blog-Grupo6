@@ -3,6 +3,34 @@
     --amarillo: #F29F05;
     --gris: #f2f2f2;
 }
+body{
+    color: #000;
+}
+
+/* Forzar texto negro en el formulario */
+.section__contacto label,
+.section__contacto input,
+.section__contacto textarea {
+    color: #000;
+}
+
+.section__contacto input::placeholder,
+.section__contacto textarea::placeholder {
+    color: #000;
+}
+
+p{
+    color: #000;
+}
+
+.fa-paper-plane{
+    color: #000 !important;
+}
+
+.main__contacto{
+    margin-top: 150px !important;
+    color: #000;
+}
 
 /* Encabezado */
 .main__contacto {
@@ -18,6 +46,7 @@
 .info__contacto {
     padding: 20px;
     text-align: center;
+    color: #000;
 }
 
 .info__contacto p {
