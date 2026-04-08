@@ -9,6 +9,9 @@
 body {
     background-color: #fdfaf5;
 }
+.hero{
+    margin-top: 150px;
+}
 
 .container {
     padding: 50px 5%;
@@ -16,14 +19,19 @@ body {
     margin: 0 auto;
 }
 
-.section-title {
+.section-title, .bienvenida {
     text-align: center;
     color: #d35400;
     margin-bottom: 40px;
     font-size: 2.5rem;
     text-transform: uppercase;
 }
-
+.parrafobienvenida{
+     color: #2c3e50;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    text-align: center;
+}
 .posts-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
